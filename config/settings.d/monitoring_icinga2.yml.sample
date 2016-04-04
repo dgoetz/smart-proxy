@@ -1,0 +1,8 @@
+---
+:server: director.localdomain
+:api_user: foreman
+:api_cacert: /tmp/ca.crt
+:api_usercert: /tmp/foreman.crt
+:api_userkey: /tmp/foreman.key
+#:api_password: foreman
+:manage_endpoint: false

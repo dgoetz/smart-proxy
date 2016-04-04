@@ -69,6 +69,8 @@ module Proxy
   require 'bmc/bmc'
   require 'realm/realm'
   require 'logs/logs'
+  require 'monitoring/monitoring'
+  require 'monitoring_icinga2/monitoring_icinga2'
 
   def self.version
     {:version => VERSION}
